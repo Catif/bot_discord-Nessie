@@ -1,0 +1,10 @@
+{
+  "rules": {
+    "no-multiple-empty-lines": ["error", { "max": 3, "maxEOF": 1 }],
+    "no-console": "off", // DURING DEVELOPMENT
+    "import/newline-after-import": ["error", { "count": 1 }],
+    "unused-imports/no-unused-imports": "off",
+    "no-unused-vars": "off"
+  },
+  "extends": "@antfu"
+}

@@ -1,0 +1,33 @@
+{
+  "name": "bot-discord",
+  "description": "A repository with all my bots.",
+  "version": "1.0.0",
+  "main": "Bot_Nessie.js",
+  "scripts": {
+    "start": "node Bot_Nessie.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Catif/bot_discord-Nessie.git"
+  },
+  "author": "Bradley B.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Catif/bot_discord-Nessie/issues"
+  },
+  "homepage": "https://github.com/Catif/bot_discord-Nessie#readme",
+  "dependencies": {
+    "axios": "^1.5.0",
+    "discord.js": "^14.6.0",
+    "dotenv": "^16.0.3",
+    "install": "^0.13.0",
+    "node-fetch": "^2.6.7",
+    "node-schedule": "^2.1.0"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.38.5"
+  }
+}
